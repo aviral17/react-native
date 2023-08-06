@@ -1,0 +1,1 @@
+A) Visit Expo Router ---> https://expo.github.io/router/docs/     and paste -----> npx create-expo-app@latest --example with-router ./   (in current folder)
