@@ -1,0 +1,5 @@
+A) Stop the server from running 
+
+B) npm i -g expo-cli  and then  C) expo publish  [you may have to make expo account if not already]
+
+NOTE: If build fails, run `expo publish` again

@@ -1,0 +1,6 @@
+I used App Sync Storage for caching rapid API for the whole application,  it means if we have same  job for both popular, nearby or any other component, it wont be refetched again, We do so via Async using job_id (Of course we are passing it to API from the App Components) as Key
+
+
+
+
+#NOTE: Check [id].js

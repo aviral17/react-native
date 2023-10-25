@@ -1,1 +1,31 @@
 A) Visit Expo Router ---> https://expo.github.io/router/docs/     and paste -----> npx create-expo-app@latest --example with-router ./   (in current folder)
+
+
+We get something like this -----> 
+
+
+✅ Your project is ready!
+
+To run your project, run one of the following npm commands.
+
+- npm run android
+- npm run ios # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
+- npm run web
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+B) create folder `app`
+
+C) NOTE: npm i expo-font axios react-native-dotenv   -----   1) expo-font --> To create out Custom Font 2) react-native-dotenv ---> To create environment variable
+
+After this initial steps, run  `npm start`  and then we can scan QR Code to run application or use NOTE: `expo go` app on mobile tand scan QR Code there and run application there.
+
+TODO: NOTE: If for some reason, its not working or wifi is blocking, then use command --------> ``npm i -g expo-cli``  and then use ``expo-cli start --tunnel``
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+NOTE: TIP: If reloading doesn't update the app, then again start the terminal either by `npm start` or if using 2nd method then use `expo-cli start --tunnel` and scan the QR Code again or simply click on the app name in Expo go  and after Building 100% it will work correctly 
+
+
+
+
